@@ -1,0 +1,102 @@
+/* ==UserStyle==
+@name         Tabnews
+@version      20220523.15.24
+@namespace    userstyles.world/user/birobirobiro
+@description  Tabnews - Catpuccin Theme (Mocha)
+@author       birobirobiro
+@license      MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.tabnews.com.br/") {
+body, .markdown-body {
+    background-color: #1e1e2e;
+    }
+    
+    h1, h2, h3 {
+        color: #a6e3a1;
+    }
+    
+    a, p, article, ul, li, .hHgTHO {
+        color: #bac2de;
+    }
+    
+    a:visited {
+        color: #89b4fa;
+        background-color: #7f849c;
+    }
+    
+    .markdown-body a, .jKkIsR {
+        color: #cba6f7;
+    }
+    
+    .eOokvn > a:visited {
+        color: #cba6f7;
+    }
+    
+    .eOokvn > a:link {
+        color: #89b4fa;
+    }
+    
+    .fHcGEk {
+        color: #89b4fa;
+    }
+    
+    pre, code {
+        color: #f38ba8;
+    }
+    
+    .hyGYav a, p, article, span {
+        color: #89b4fa;
+    }
+    
+    .eOokvn{
+         color: #89b4fa !important;
+    }
+    
+    .frovG {
+        color: #89b4fa;
+    }
+    
+    .jbChEF span{
+        color: #1e1e2e;
+    }
+    
+    #header, .fvjKYN {
+        background-color: #1e1e2e;
+        border-bottom: 1px solid #cdd6f4;
+    }
+    
+    .ekiLYA:hover:not([disabled]) {
+        background-color: #1e1e2e;
+        border: 1px solid #cdd6f4;
+    }
+    
+    .bytemd, .bytemd-toolbar, .CodeMirror-scroll, .hGoCtd{ 
+         background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
+    
+    .cfHMLL, .hiyjYW:hover {
+        background-color: #1e1e2e;
+        border: 1px solid #cdd6f4;
+    }
+    
+    .cPXPdm, .cPXPdm [data-component="text"], .ehGjaB, .ehGjaB [data-component="text"] {
+        background-color: #a6e3a1;
+        color: #1e1e2e;
+    }
+    
+    .igLpVF:hover:not([disabled]) {
+        background-color: #f38ba8;
+    }
+    
+    .bytemd-toolbar-tab-active, .cm-s-default .cm-string {
+         color: #cba6f7;
+    }
+    
+    .cm-s-default .cm-link, .cm-s-default .cm-header {
+     color: #a6e3a1;
+    }
+    
+    
+}
