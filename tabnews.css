@@ -16,7 +16,10 @@
 
     h1,
     h2,
-    h3 {
+    h3,
+    h4,
+    h5,
+    h6 {
         color: #a6e3a1;
     }
 
@@ -43,6 +46,7 @@
         color: #89b4fa;
         background-color: #45475a;
     }
+
 
     .markdown-body a,
     .jKkIsR,
