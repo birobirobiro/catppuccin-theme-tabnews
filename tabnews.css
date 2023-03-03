@@ -95,4 +95,8 @@ body, .markdown-body {
         color: #89b4fa;
     }
     
+    .markdown-body table td, .markdown-body table th {
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
 }
