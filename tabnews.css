@@ -8,8 +8,24 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.tabnews.com.br/") {
-body, .markdown-body {
+body, .markdown-body, input {
     background-color: #1e1e2e;
+    }
+    
+    #search-icon {
+        display: flex;
+        align-items: center;
+    }
+    
+    #search-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    input {
+        color: #a6e3a1;
+        outline: #89b4fa;
+        border: 1px solid #89b4fa;
     }
     
     h1, h2, h3, h4, h5, h6 {
@@ -20,12 +36,16 @@ body, .markdown-body {
         color: #bac2de;
     }
     
-    .hyGYav a, p, article, span, .dVxwER, .frovG, .llfTuQ {
+    .ffxEqE, .kqoJfl, .hyGYav a, p, article, span, .dVxwER, .frovG, .llfTuQ {
         color: #89b4fa;
     }
     
-    a:visited {
-        color: #89b4fa;
+    .kqoJfl > a:link {
+         color: #89b4fa;
+    }
+    
+    .kqoJfl > a:visited {
+        color: #cba6f7;
         background-color: #45475a;
     }
     
